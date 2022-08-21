@@ -12,7 +12,9 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     const previousBalanceTotal = getTextElementValueById('balance-total');
     const newBalanceTotal = newDepositAmount + previousBalanceTotal;
 
-    setTextElementValueById('balance-total', newBalanceTotal)
+    setTextElementValueById('balance-total', newBalanceTotal);
+
+
 })
 
 
