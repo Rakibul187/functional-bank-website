@@ -1,4 +1,8 @@
-document.getElementById('withdraw-btn').addEventListener('click', function () {
+
+
+
+
+/* document.getElementById('withdraw-btn').addEventListener('click', function () {
 
     const withdrawField = document.getElementById('withdraw-field');
     const newWithdrawAmountString = withdrawField.value;
@@ -19,4 +23,4 @@ document.getElementById('withdraw-btn').addEventListener('click', function () {
 
     const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
     balanceTotalElement.innerText = newBalanceTotal;
-})
+}) */
